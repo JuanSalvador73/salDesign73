@@ -22,12 +22,22 @@
         
         <!--Link CSS GASP Animacion-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!--Link CSS Modal-->
+         
+
+        <!--Link CSS Modal-->
+        <!--
+            <link rel="stylesheet" href="src/styles-modal-visual.css">
+        -->
+        
+        
         
         
     
     
-  <script type="module" crossorigin src="/assets/index-a3ed8a13.js"></script>
-  <link rel="stylesheet" href="/assets/index-2111dd12.css">
+  <script type="module" crossorigin src="/assets/index-f3e5f3ea.js"></script>
+  <link rel="stylesheet" href="/assets/index-065cef56.css">
 </head>
 
 <body>
@@ -242,7 +252,7 @@
             </div>
 
             <div class="content-education">
-                <p>- Oracle One Education</p>
+                <p>- Alura Latam Education 2024</p>
                 <p class="link-content-education"><a href="https://www.oracle.com/mx/education/oracle-next-education/#curso"  target="_blank" class="link-content-education">Oracle One Education</a></p>
             </div>
         </div>
@@ -347,6 +357,18 @@
 
                         <div class="swiper-wrapper">
 
+                             <!--=====================PROJECT 0=====================-->
+                             <div class="projects__content swiper-slide">
+                                <img src="/assets/img-acor-92c0318c.png" alt="imagen Acor">
+
+                                <div>
+                                    <span class="projects__subtitle">UX</span>
+                                    <h1 class="projects__title">Proyecto Acor</h1>
+                                    <a class="projects__button btn-modal" >Ver Demo <i class="ri-arrow-right-line"></i></a>
+                                </div>
+                            </div>
+
+
                             <!--=====================PROJECT 1=====================-->
                             <div class="projects__content swiper-slide">
                                 <img src="/assets/img-codificador-fd004ffd.png" alt="imagen Codificador">
@@ -361,6 +383,18 @@
                             
                             <!--=====================PROJECT 2=====================-->
                             <div class="projects__content swiper-slide">
+                                <img src="/assets/img-encriptador-9d48744b.png" alt="imagen Codificador">
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Proyecto Web</h1>
+                                    <a href="https://juansalvador73.github.io/encriptador_alura_2024/" target="_blank" class="projects__button">Ver Demo <i class="ri-arrow-right-line"></i></a>
+                                </div>
+                            </div>
+
+                            
+                            <!--=====================PROJECT 3=====================-->
+                            <div class="projects__content swiper-slide">
                                 <img src="/assets/img-cys-ae076155.png" alt="imagen CYS">
 
                                 <div>
@@ -371,7 +405,7 @@
                             </div>
 
                             
-                            <!--=====================PROJECT 3=====================-->
+                            <!--=====================PROJECT 4=====================-->
                             <div class="projects__content swiper-slide">
                                 <img src="/assets/img-pokemon-7ca372b9.png" alt="imagen Pokemon">
 
@@ -382,7 +416,7 @@
                                 </div>
                             </div>
 
-                            <!--=====================PROJECT 4=====================-->
+                            <!--=====================PROJECT 5=====================-->
                             <div class="projects__content swiper-slide">
                                 <img src="/assets/img-solertia-13168352.png" alt="imagen Solertia">
                                 
@@ -393,27 +427,27 @@
                                 </div>
                             </div>
 
-                            <!--=====================PROJECT 5=====================-->
+                            <!--=====================PROJECT 6=====================-->
                             
                             <div class="projects__content swiper-slide">
                                 <img src="/assets/img-oculus-ambient-41ac77ef.png" alt="imagen Oculus">
                                                 
-                                <div>
+                                <div id="vUno">
                                     <span class="projects__subtitle">Realidad Virtual</span>
                                     <h1 class="projects__title">Ambiente Virtual</h1>
-                                    <a href="https://www.youtube.com/watch?v=QBjt2iTgAEg&t=2s"  target="_blank" class="projects__button">Ver Demo <i class="ri-arrow-right-line"></i></a>
+                                    <a class="projects__button yt-modal-btn" id="video1">Ver Demo <i class="ri-arrow-right-line"></i></a>
                                 </div>
                             </div>
 
-                            <!--=====================PROJECT 6=====================-->
+                            <!--=====================PROJECT 7=====================-->
                             
                             <div class="projects__content swiper-slide">
                                 <img src="/assets/img-virtual-tennis-e8be40f2.png" alt="imagen VR Tennis">
                                                                             
-                                <div>
+                                <div id="vDos">
                                     <span class="projects__subtitle">Realidad Virtual</span>
                                     <h1 class="projects__title">Juego Virtual</h1>
-                                    <a href="https://www.youtube.com/watch?v=7iRi7Je4vBk&t=1s"  target="_blank" class="projects__button">Ver Demo <i class="ri-arrow-right-line"></i></a>
+                                    <a class="projects__button yt-modal-btn__tenis" id="video2">Ver Demo <i class="ri-arrow-right-line"></i></a>
                                 </div>
                             </div>
 
@@ -531,10 +565,22 @@
                         </a>
                     </div>
                 </div>
-               
+
+                <!--Ventana Modal Videos-->
+                <div class='modal-bg'>
+      
+                </div>
+
+
+                <!--Ventana Modal UX-->
+                <div class="bg-modal-ux">
+
+                </div>
+
+               <!--Termina Ventana Modal UX-->
 
                 <span class="footer__copy">
-                    &#169; Copyright saldesign73. Derechos Reservados
+                    &#169; Copyright saldesign73. Derechos Reservados 2024
                 </span>
             </div>
         </footer>
@@ -545,30 +591,40 @@
     
 	
 
-    <!--Script de WEBGI-->
-	
+<!--Script de WEBGI-->
 
-    <!--Script de Particulas de Fondo-->
-    <script  type="text/javascript"  src="https://sal-73-components.netlify.app/scripts/particles.min.js"></script>
-    <script type="text/javascript"  src="https://sal-73-components.netlify.app/scripts/custom.js"></script>
+
+<!--Script de Particulas de Fondo-->
+<script  type="text/javascript"  src="http://saldesign73.com/components/particles.min.js"></script>
+<script type="text/javascript"  src="http://saldesign73.com/components/custom.js"></script>
+
+<!--Script de Typing JS Presentacion-->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script type="text/javascript"   src="http://saldesign73.com/components/typing.js"></script>
+
+<!--Script de Swipers para Proyectos-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script type="text/javascript"   src="http://saldesign73.com/components/swiper.js"></script>
+
+<!--Script de Email JS y de formulario-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript"   src="http://saldesign73.com/components/contactform.js"></script>
     
-    <!--Script de Typing JS Presentacion-->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script type="text/javascript"   src="https://sal-73-components.netlify.app/scripts/typing.js"></script>
-    
-    <!--Script de Swipers para Proyectos-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script type="text/javascript"   src="https://sal-73-components.netlify.app/scripts/swiper.js"></script>
-    
-    <!--Script de Email JS y de formulario-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript"   src="https://sal-73-components.netlify.app/scripts/contactform.js"></script>
-        
-    <!--Script de GAS)-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+<!--Script de GAS)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+<!--Script de Modal Realidad Virtual-->
+<script src="http://saldesign73.com/components/script-modal.js"></script>
+
+<!--Script de Modal UX Acor-->
+<script src="http://saldesign73.com/components/script-modal-ux.js"></script>
+
+<!--Fin Scripts de WEBGI-->
+
     
 
     
